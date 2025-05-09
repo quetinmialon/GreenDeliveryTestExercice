@@ -1,8 +1,14 @@
 <?php
 
-namespace App\Services;
+
+
+namespace App;
+
+require 'const.php';
+
 use const EMISSION_FACTORS;
 use const WEIGHT_LIMITS;
+use const DISTANCE_LIMIT;
 
 class CarbonCalculator
 {
@@ -39,7 +45,7 @@ class CarbonCalculator
         return $distance * $factor * (1 + $weight / 100);
     }
 
-    private function getMaximumWeightCharge():int
+    public function getMaximumWeightCharge():int
     {
         $max_weight = 0;
         foreach (WEIGHT_LIMITS as $type => $limit)

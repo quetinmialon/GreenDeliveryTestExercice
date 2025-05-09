@@ -1,6 +1,9 @@
 <?php
 
-namespace App\Services;
+namespace App;
+
+require 'const.php';
+
 use const SPEEDS;
 use const WEIGHT_LIMITS;
 use const DISTANCE_LIMIT;

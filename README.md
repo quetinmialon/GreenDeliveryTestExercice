@@ -186,10 +186,10 @@ composer install
 and then run the following command to test the application 
 
 ````terminal 
-./vendor/bin/phpunit 
+php ./vendor/bin/phpunit --coverage-text
 ````
 
-if you need some testing coverage informations you might add some option to the previous command : 
+if you need some testing coverage informations you might change the --coverage-text option by some other option of the following list in the previous command : 
 
  - --coverage-clover <file>           Write code coverage report in Clover XML format to file
  - --coverage-cobertura <file>        Write code coverage report in Cobertura XML format to file
@@ -205,4 +205,3 @@ if you need some testing coverage informations you might add some option to the 
  - --path-coverage                    Report path coverage in addition to line coverage
  - --disable-coverage-ignore          Disable metadata for ignoring code coverage
  - --no-coverage                      Ignore code coverage reporting configured in the XML configuration file
-
