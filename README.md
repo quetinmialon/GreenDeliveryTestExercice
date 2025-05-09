@@ -191,18 +191,18 @@ and then run the following command to test the application
 
 if you need some testing coverage informations you might add some option to the previous command : 
 
-  --coverage-clover <file>           Write code coverage report in Clover XML format to file
-  --coverage-cobertura <file>        Write code coverage report in Cobertura XML format to file
-  --coverage-crap4j <file>           Write code coverage report in Crap4J XML format to file
-  --coverage-html <dir>              Write code coverage report in HTML format to directory
-  --coverage-php <file>              Write serialized code coverage data to file
-  --coverage-text=<file>             Write code coverage report in text format to file [default: standard output]
-  --only-summary-for-coverage-text   Option for code coverage report in text format: only show summary
-  --show-uncovered-for-coverage-text Option for code coverage report in text format: show uncovered files
-  --coverage-xml <dir>               Write code coverage report in XML format to directory
-  --warm-coverage-cache              Warm static analysis cache
-  --coverage-filter <dir>            Include <dir> in code coverage reporting
-  --path-coverage                    Report path coverage in addition to line coverage
-  --disable-coverage-ignore          Disable metadata for ignoring code coverage
-  --no-coverage                      Ignore code coverage reporting configured in the XML configuration file
+ - --coverage-clover <file>           Write code coverage report in Clover XML format to file
+ - --coverage-cobertura <file>        Write code coverage report in Cobertura XML format to file
+ - --coverage-crap4j <file>           Write code coverage report in Crap4J XML format to file
+ - --coverage-html <dir>              Write code coverage report in HTML format to directory
+ - --coverage-php <file>              Write serialized code coverage data to file
+ - --coverage-text=<file>             Write code coverage report in text format to file [default: standard output]
+ - --only-summary-for-coverage-text   Option for code coverage report in text format: only show summary
+ - --show-uncovered-for-coverage-text Option for code coverage report in text format: show uncovered files
+ - --coverage-xml <dir>               Write code coverage report in XML format to directory
+ - --warm-coverage-cache              Warm static analysis cache
+ - --coverage-filter <dir>            Include <dir> in code coverage reporting
+ - --path-coverage                    Report path coverage in addition to line coverage
+ - --disable-coverage-ignore          Disable metadata for ignoring code coverage
+ - --no-coverage                      Ignore code coverage reporting configured in the XML configuration file
 
